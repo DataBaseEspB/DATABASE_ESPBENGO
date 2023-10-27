@@ -1,0 +1,34 @@
+Laboratório de Pesquisa IBM San José Califórnia
+A visão relacional dos dados parece ser superior em vários aspetos ao gráfico de rede, atualmente em voga ao sistemas não inferenciais. Ela descreve os dados apenas com a sua estrutura natural, isto é, sem sobrepor qualquer estrutura adicional para fins de representação da maquina fornece base de dados para linguagem de dados de alto nível.
+ 
+Vantagens da linguagem relacional
+As vantagens da linguagem relacional é que ela forma uma base sólida para tratar a rivalidade, redundância e consistências das relações. O modelo da rede confundiu a derivação de conexões com a derivação de relações que é menos relevante.
+Finalmente a visão relacional permite uma avaliação mais clara do escopo e das limitações logicas dos quais sistemas de dados formatados, e também os méritos relativos (do ponto de vista logico) de representações coerentes de dados dentro de um único sistema.
+ 
+Dependências de dados nos sistemas acuais
+O fornecimento de tabelas de descrição de dados em sistema de informação desenvolvida recentemente, representa um grande avanço em direção ao objectivo de independência de dados.
+Tais tabelas representam alterações de certas características da apresentação de dados armazenados em um banco de dados.
+No entanto a variedade de características de representação de dados que podem ser alterados sem prejudicar logicamente alguns programas de aplicação ainda bastante limitada.
+Alem disso o modelo de dados com os quais os usuários interagem ainda esta confusa com as propriedades representacionais particularmente no que diz respeito a representação de coleção de dados.
+ 
+Tipos de dependência de dados que ainda precisam ser removidos
+Existe três (3) tipos de dependência de dados que ainda precisam ser removidos que são:
+ 
+1. Dependência de Ordenação;
+2. Dependência de Indexação;
+3. Dependência de Caminho de Acesso.
+ 
+Em alguns sistemas essas dependências não são claramente reparáveis dos outros.
+ 
+Ordenando Dependência
+​Os elementos de dados em um banco de dados podem ser armazenados de varias maneiras alguns não envolvendo preocupações com pedidos e outros com pedido único e outros permitindo que cada elemento participe a partir de vários pedidos. 
+Este artigo esta preocupado com a aplicação da teoria das relações mentais a sistemas que fornecem acesso compartilhado a grande banco de dados formatados.
+ 
+ 
+ 
+Dependência de Indexação
+Dados emaranhados um índice geralmente é pensado como um componente puramente orientado para desempenho F do representante de dados.
+Para cada projeto o numero do projeto o nome do projeto e a discrição do projeto são registrados. Sempre que um projeto faz o uso de uma determinada parte a quantidade desta parte comprometida com o determinado projeto também é registrada.
+ 
+Dependência de Caminho de Acesso
+Muitos dos sistemas de dados formatados existentes fornecem aos usuários arquivos estruturados em arvore ou modulo de rede um pouco mais gerais dos dados. Os programas de aplicativos desenvolvidos para trabalhar com esse sistema tendem a ser logicamente prejudicados se as arvores ou redes forem alterados na estrutura.
